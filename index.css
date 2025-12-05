@@ -61,6 +61,12 @@ body {
     color: white;
 }
 
+.customer-support {
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+}
+
 .hero {
     width: 100%;
     min-height: 600px;
@@ -83,8 +89,6 @@ body {
             #D2691E 100%   /*
         );
     
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+    
 
 
