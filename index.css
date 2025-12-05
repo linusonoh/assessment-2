@@ -49,8 +49,8 @@ body {
 
 .overview {
     display: flex;
-    flex-direction: column;  /* stack children vertically */
-    align-items: center;     /* center horizontally */
+    flex-direction: column;
+    align-items: center;     
     
 }
 
@@ -75,12 +75,12 @@ body {
     background:
         /* Top half white fading into bottom */
         linear-gradient(to bottom, white 0%, white 50%, rgba(255,255,255,0) 60%),
-        /* Bottom horizontal gradient: left purple to right dark peach */
+        
         linear-gradient(to right, 
             #800080 0%,    /* purple start */
             #800080 70%,   /* purple extends further into bottom half */
             #D2691E 75%,   /* dark peach starts fading */
-            #D2691E 100%   /* dark peach end */
+            #D2691E 100%   /*
         );
     
     background-size: 100% 100%;
