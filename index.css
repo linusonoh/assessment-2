@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
 .header ul {
     list-style: none;
     display: flex;
@@ -45,6 +50,10 @@ body {
     border-radius: 5px;
     color: white;
     
+}
+
+.header-buttons p {
+    color: blue;
 }
 
 .overview {
@@ -272,9 +281,11 @@ body {
 }
 
 .copywright {
+    color: #33255c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 50px;
 }
 
 
