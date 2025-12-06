@@ -67,6 +67,71 @@ body {
     padding: 50px;
 }
 
+.customer-support-text {
+    line-height: 2.5;
+}
+
+.sales-monitoring {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.sales-monitoring-text {
+    line-height: 2.5;
+}
+
+.growth-monitoring {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.growth-monitoring-text {
+    line-height: 2.5;
+    display: block;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.stats-box {
+    display: block;
+    justify-content: center;
+}
+
+.frequently-asked-questions {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.frequently-asked-questions-text {
+    line-height: 2;
+}
+.frequently-asked-questions h1 {
+    line-height: 1;
+}
+.flexible-plans-for-you-text {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .hero {
     width: 100%;
     min-height: 600px;
