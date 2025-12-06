@@ -70,6 +70,10 @@ body {
 .customer-support-text {
     line-height: 2.5;
 }
+.customer-support h3 {
+    color: rgb(1, 138, 1);
+}
+
 
 .sales-monitoring {
     display: flex;
@@ -79,6 +83,9 @@ body {
 .sales-monitoring-text {
     line-height: 2.5;
 }
+.sales-monitoring h3 {
+    color: rgb(82, 82, 255);
+}
 
 .growth-monitoring {
     display: flex;
@@ -86,17 +93,28 @@ body {
     padding: 50px;
 }
 .growth-monitoring-text {
-    line-height: 2.5;
-    display: block;
-}
-.stats {
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    flex-direction: column;
+    line-height: 2.5;
+
+}
+.growth-monitoring h3 {
+    color: rgb(235, 40, 145);
+}
+
+.stats {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 .stats-box {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    line-height: 1;
+    
 }
 
 .frequently-asked-questions {
@@ -110,10 +128,21 @@ body {
 .frequently-asked-questions h1 {
     line-height: 1;
 }
+.frequently-asked-questions h3{
+    color: rgb(235, 40, 145);
+}
+.frequently-asked-questions p {
+    color: #413f41;
+}
 .flexible-plans-for-you-text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     
+}
+.flexible-plans-for-you p {
+    color: gray;
 }
 
 .price-box {
@@ -143,6 +172,7 @@ body {
     padding: 10px;
     width: 300px;
 }
+
 
 .business {
     line-height: 2;
@@ -187,7 +217,59 @@ body {
     width: 300px;
     
 }
+.myw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
 
+.monitor-your-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1300px;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: rgb(199, 24, 161);
+    color: antiquewhite;
+}
+.monitor-your-web-buttons {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.monitor-your-web-buttons button {
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: #800080;
+
+}
+.footer-logo {
+    display: flex;
+    flex-direction:row;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    line-height: 3;
+    gap: 100px;
+}
+
+.footer-list ul {
+    list-style: none;
+}
 
 
 
