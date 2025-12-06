@@ -118,13 +118,75 @@ body {
 
 .price-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
 }
 
 
+.free-trial {
+    line-height: 2;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 244, 255);
+    height: 500px;
+}
 
+.free-trial button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    width: 300px;
+}
 
+.business {
+    line-height: 2;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(67, 40, 235);
+    height: 500px;
+    
+}
+.business button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    width: 300px;
+}
 
+.enterprice {
+    line-height: 1.5;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 244, 255);
+    height: 500px;
+}
+
+.enterprice button {
+    background-color: white;
+    border: none;
+    color: blue;
+    border-radius: 10px;
+     align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    width: 300px;
+    
+}
 
 
 
