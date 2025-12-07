@@ -15,6 +15,8 @@ body {
     gap: 50px;
     
 }
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -293,28 +295,71 @@ body {
 
 
 
-.hero {
-    width: 100%;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
+
+
+
+
+
+
+
+
+
+/* phone universal */
+
+@media (max-width :599px) {
+    .head-list {display: none;}
+    .sales-monitoring{
+        display: block;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    gap: 40px;
-
-    /* layered gradients for smooth transitions */
-    background:
-        /* Top half white fading into bottom */
-        linear-gradient(to bottom, white 0%, white 50%, rgba(255,255,255,0) 60%),
-        
-        linear-gradient(to right, 
-            #800080 0%,    /* purple start */
-            #800080 70%,   /* purple extends further into bottom half */
-            #D2691E 75%,   /* dark peach starts fading */
-            #D2691E 100%   /*
-        );
+    }
+    .growth-monitoring{
+        display: block;
+    align-items: center;
+    justify-content: center;
+    }
+    .customer-support{
+         display: block;
+    align-items: center;
+    justify-content: center;
     
+    }
+    .frequently-asked-questions{
+         display: block;
+    align-items: center;
+    justify-content: center;
     
+    }
+    .plans{ display: block;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .flexible-plans-for-you{
+        display: block;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .price-box{
+        display: block;
+    align-items: center;
+    justify-content: center;
+    }
+}
 
 
+/* large phones and tablets */
+@media (min-width :600px) and (max-width :767px) {}
+
+
+/* medium tablets */
+@media (min-width: 768px) and (max-width:991px) {}
+
+
+/* for laptops */
+@media (min-width:992px)and (max-width :1199px) {}
+
+
+/* for desktops */
+@media (max-width :1200px)
